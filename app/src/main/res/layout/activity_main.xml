@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@color/whit"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <FrameLayout
+            android:id="@+id/fragmentId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/helsinki"
+                android:text="বাংলা স্বরবর্ণ"
+                android:textSize="50sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="অ"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"
+                android:onClick="apple"/>
+
+            <Button
+                android:onClick="buttonB"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="আ"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="c"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="ই"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="d"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="ঈ"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="e"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/roundbutton"
+
+                android:text="উ"
+                android:textColor="@color/whit"
+                android:textSize="40sp" />
+
+            <Button
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:background="@drawable/roundbutton"
+
+                android:onClick="f"
+                android:text="ঊ"
+                android:textColor="@color/whit"
+                android:textSize="40sp" />
+
+            <Button
+                android:onClick="g"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="ঋ"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="h"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="এ"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="i"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="ঐ"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="j"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="ও"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="k"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="ঔ"
+
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+
+
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
